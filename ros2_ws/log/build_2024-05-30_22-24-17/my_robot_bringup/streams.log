@@ -1,0 +1,46 @@
+[0.019s] Invoking command in '/workspaces/auto_race/ros2_ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspaces/auto_race/ros2_ws/src/my_robot_bringup -DCMAKE_INSTALL_PREFIX=/workspaces/auto_race/ros2_ws/install/my_robot_bringup
+[0.331s] -- The C compiler identification is GNU 11.4.0
+[0.395s] -- The CXX compiler identification is GNU 11.4.0
+[0.407s] -- Detecting C compiler ABI info
+[0.482s] -- Detecting C compiler ABI info - done
+[0.493s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.494s] -- Detecting C compile features
+[0.494s] -- Detecting C compile features - done
+[0.499s] -- Detecting CXX compiler ABI info
+[0.582s] -- Detecting CXX compiler ABI info - done
+[0.593s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.594s] -- Detecting CXX compile features
+[0.594s] -- Detecting CXX compile features - done
+[0.598s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.757s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.902s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.997s] -- Added test 'lint_cmake' to check CMake code style
+[0.998s] -- Added test 'xmllint' to check XML markup files
+[1.000s] -- Configuring done
+[1.003s] -- Generating done
+[1.004s] -- Build files have been written to: /workspaces/auto_race/ros2_ws/build/my_robot_bringup
+[1.009s] Invoked command in '/workspaces/auto_race/ros2_ws/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspaces/auto_race/ros2_ws/src/my_robot_bringup -DCMAKE_INSTALL_PREFIX=/workspaces/auto_race/ros2_ws/install/my_robot_bringup
+[1.011s] Invoking command in '/workspaces/auto_race/ros2_ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/auto_race/ros2_ws/build/my_robot_bringup -- -j8 -l8
+[1.051s] Invoked command in '/workspaces/auto_race/ros2_ws/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/auto_race/ros2_ws/build/my_robot_bringup -- -j8 -l8
+[1.074s] Invoking command in '/workspaces/auto_race/ros2_ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/auto_race/ros2_ws/build/my_robot_bringup
+[1.081s] -- Install configuration: ""
+[1.082s] -- Installing: /workspaces/auto_race/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//launch
+[1.082s] -- Installing: /workspaces/auto_race/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//launch/my_robot_gazebo.launch.xml
+[1.082s] -- Installing: /workspaces/auto_race/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//rviz
+[1.082s] -- Installing: /workspaces/auto_race/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//rviz/rviz_config.rviz
+[1.102s] -- Installing: /workspaces/auto_race/ros2_ws/install/my_robot_bringup/share/ament_index/resource_index/package_run_dependencies/my_robot_bringup
+[1.103s] -- Installing: /workspaces/auto_race/ros2_ws/install/my_robot_bringup/share/ament_index/resource_index/parent_prefix_path/my_robot_bringup
+[1.104s] -- Installing: /workspaces/auto_race/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.sh
+[1.105s] -- Installing: /workspaces/auto_race/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.dsv
+[1.106s] -- Installing: /workspaces/auto_race/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/path.sh
+[1.107s] -- Installing: /workspaces/auto_race/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/path.dsv
+[1.107s] -- Installing: /workspaces/auto_race/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.bash
+[1.108s] -- Installing: /workspaces/auto_race/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.sh
+[1.108s] -- Installing: /workspaces/auto_race/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.zsh
+[1.109s] -- Installing: /workspaces/auto_race/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.dsv
+[1.109s] -- Installing: /workspaces/auto_race/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.dsv
+[1.110s] -- Installing: /workspaces/auto_race/ros2_ws/install/my_robot_bringup/share/ament_index/resource_index/packages/my_robot_bringup
+[1.110s] -- Installing: /workspaces/auto_race/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig.cmake
+[1.111s] -- Installing: /workspaces/auto_race/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig-version.cmake
+[1.111s] -- Installing: /workspaces/auto_race/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.xml
+[1.118s] Invoked command in '/workspaces/auto_race/ros2_ws/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/auto_race/ros2_ws/build/my_robot_bringup
