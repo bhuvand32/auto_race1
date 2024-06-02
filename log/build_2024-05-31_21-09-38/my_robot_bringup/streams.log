@@ -1,0 +1,33 @@
+[0.018s] Invoking command in '/workspaces/auto_race/build/my_robot_bringup': /usr/bin/cmake /workspaces/auto_race/ros2_ws/src/my_robot_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/auto_race/install/my_robot_bringup
+[1.023s] -- The C compiler identification is GNU 11.4.0
+[1.481s] -- The CXX compiler identification is GNU 11.4.0
+[1.524s] -- Detecting C compiler ABI info
+[1.825s] -- Detecting C compiler ABI info - done
+[1.837s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.898s] -- Detecting C compile features
+[1.899s] -- Detecting C compile features - done
+[1.907s] -- Detecting CXX compiler ABI info
+[2.164s] -- Detecting CXX compiler ABI info - done
+[2.181s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.181s] -- Detecting CXX compile features
+[2.181s] -- Detecting CXX compile features - done
+[2.202s] -- Configuring incomplete, errors occurred!
+[2.202s] See also "/workspaces/auto_race/build/my_robot_bringup/CMakeFiles/CMakeOutput.log".
+[2.202s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[2.202s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[2.203s]   has asked CMake to find a package configuration file provided by
+[2.203s]   "ament_cmake", but CMake did not find one.
+[2.203s] 
+[2.203s]   Could not find a package configuration file provided by "ament_cmake" with
+[2.203s]   any of the following names:
+[2.203s] 
+[2.203s]     ament_cmakeConfig.cmake
+[2.203s]     ament_cmake-config.cmake
+[2.203s] 
+[2.204s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[2.204s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[2.204s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[2.204s]   has been installed.
+[2.204s] 
+[2.204s] [0m
+[2.214s] Invoked command in '/workspaces/auto_race/build/my_robot_bringup' returned '1': /usr/bin/cmake /workspaces/auto_race/ros2_ws/src/my_robot_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/auto_race/install/my_robot_bringup

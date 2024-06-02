@@ -1,0 +1,1 @@
+/workspaces/auto_race/ros2_ws/src/my_robot_bringup/launch/nav2_gazebo.launch.py

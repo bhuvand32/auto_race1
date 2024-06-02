@@ -1,0 +1,15 @@
+/workspaces/auto_race/ros2_ws/install/waypoints/share/ament_index/resource_index/package_run_dependencies/waypoints
+/workspaces/auto_race/ros2_ws/install/waypoints/share/ament_index/resource_index/parent_prefix_path/waypoints
+/workspaces/auto_race/ros2_ws/install/waypoints/share/waypoints/environment/ament_prefix_path.sh
+/workspaces/auto_race/ros2_ws/install/waypoints/share/waypoints/environment/ament_prefix_path.dsv
+/workspaces/auto_race/ros2_ws/install/waypoints/share/waypoints/environment/path.sh
+/workspaces/auto_race/ros2_ws/install/waypoints/share/waypoints/environment/path.dsv
+/workspaces/auto_race/ros2_ws/install/waypoints/share/waypoints/local_setup.bash
+/workspaces/auto_race/ros2_ws/install/waypoints/share/waypoints/local_setup.sh
+/workspaces/auto_race/ros2_ws/install/waypoints/share/waypoints/local_setup.zsh
+/workspaces/auto_race/ros2_ws/install/waypoints/share/waypoints/local_setup.dsv
+/workspaces/auto_race/ros2_ws/install/waypoints/share/waypoints/package.dsv
+/workspaces/auto_race/ros2_ws/install/waypoints/share/ament_index/resource_index/packages/waypoints
+/workspaces/auto_race/ros2_ws/install/waypoints/share/waypoints/cmake/waypointsConfig.cmake
+/workspaces/auto_race/ros2_ws/install/waypoints/share/waypoints/cmake/waypointsConfig-version.cmake
+/workspaces/auto_race/ros2_ws/install/waypoints/share/waypoints/package.xml

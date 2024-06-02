@@ -41,6 +41,10 @@ RUN apt-get update \
   ros-humble-urdf-tutorial \
   ros-humble-tf2-tools \
   ros-humble-rmw-cyclonedds-cpp \
+  ros-humble-tf-transformations \
+  ros-humble-nav2-simple-commander \
+  python3-transforms3d \
+  python3-pip \
   && rm -rf /var/lib/apt/lists/*
 
 

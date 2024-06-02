@@ -1,0 +1,25 @@
+<launch>
+    <!-- Declare launch arguments -->
+    <arg name="map" default="$(find my_robot_bringup)/share/my_robot_bringup/map_gazebo/map_gazebo.yaml" />
+    <arg name="params_file" default="$(find my_robot_bringup)/share/my_robot_bringup/param/my_robot.yaml" />
+    <arg name="use_sim_time" default="false" />
+    <arg name="use_rviz" default="true" />
+
+    <!-- Include the bringup launch file from nav2_bringup package -->
+    <include file="$(find nav2_bringup)/launch/bringup_launch.py">
+        <arg name="map" value="$(arg map)" />
+        <arg name="use_sim_time" value="$(arg use_sim_time)" />
+        <arg name="params_file" value="$(arg params_file)" />
+    </include>
+
+    <!-- Include another XML launch file -->
+    <include file="$(find my_robot_bringup)/launch/another_launch_file.xml" />
+
+    <!-- Launch RViz2 if use_rviz is true -->
+    <group if="$(arg use_rviz)">
+        <node pkg="rviz2" exec="rviz2" name="rviz2" output="screen">
+            <param name="use_sim_time" value="$(arg use_sim_time)" />
+            <arg name="args" value="-d $(find my_robot_bringup)/share/my_robot_bringup/rviz/rviz_config.rviz" />
+        </node>
+    </group>
+</launch>

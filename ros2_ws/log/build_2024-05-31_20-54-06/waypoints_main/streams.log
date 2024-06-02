@@ -1,0 +1,25 @@
+[4.342s] Invoking command in '/workspaces/auto_race/ros2_ws/build/waypoints_main': PYTHONPATH=/workspaces/auto_race/ros2_ws/build/waypoints_main/prefix_override:/workspaces/auto_race/ros2_ws/install/waypoints_main/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspaces/auto_race/ros2_ws/build/waypoints_main/build --no-deps symlink_data
+[4.660s] running develop
+[4.673s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[4.674s]   warnings.warn(
+[4.861s] running egg_info
+[4.861s] creating waypoints_main.egg-info
+[4.861s] writing waypoints_main.egg-info/PKG-INFO
+[4.881s] writing dependency_links to waypoints_main.egg-info/dependency_links.txt
+[4.882s] writing entry points to waypoints_main.egg-info/entry_points.txt
+[4.882s] writing requirements to waypoints_main.egg-info/requires.txt
+[4.882s] writing top-level names to waypoints_main.egg-info/top_level.txt
+[4.882s] writing manifest file 'waypoints_main.egg-info/SOURCES.txt'
+[4.884s] reading manifest file 'waypoints_main.egg-info/SOURCES.txt'
+[4.885s] writing manifest file 'waypoints_main.egg-info/SOURCES.txt'
+[4.886s] running build_ext
+[4.887s] Creating /workspaces/auto_race/ros2_ws/install/waypoints_main/lib/python3.10/site-packages/waypoints-main.egg-link (link to .)
+[4.887s] 
+[4.888s] Installed /workspaces/auto_race/ros2_ws/build/waypoints_main
+[4.888s] running symlink_data
+[4.888s] creating /workspaces/auto_race/ros2_ws/install/waypoints_main/share/ament_index
+[4.888s] creating /workspaces/auto_race/ros2_ws/install/waypoints_main/share/ament_index/resource_index
+[4.888s] creating /workspaces/auto_race/ros2_ws/install/waypoints_main/share/ament_index/resource_index/packages
+[4.888s] symbolically linking /workspaces/auto_race/ros2_ws/build/waypoints_main/resource/waypoints_main -> /workspaces/auto_race/ros2_ws/install/waypoints_main/share/ament_index/resource_index/packages
+[4.888s] symbolically linking /workspaces/auto_race/ros2_ws/build/waypoints_main/package.xml -> /workspaces/auto_race/ros2_ws/install/waypoints_main/share/waypoints_main
+[4.916s] Invoked command in '/workspaces/auto_race/ros2_ws/build/waypoints_main' returned '0': PYTHONPATH=/workspaces/auto_race/ros2_ws/build/waypoints_main/prefix_override:/workspaces/auto_race/ros2_ws/install/waypoints_main/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspaces/auto_race/ros2_ws/build/waypoints_main/build --no-deps symlink_data

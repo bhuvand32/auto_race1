@@ -1,0 +1,9 @@
+/workspaces/auto_race/ros2_ws/build/waypoints/CMakeFiles/uninstall.dir
+/workspaces/auto_race/ros2_ws/build/waypoints/CMakeFiles/waypoints_uninstall.dir
+/workspaces/auto_race/ros2_ws/build/waypoints/CMakeFiles/test.dir
+/workspaces/auto_race/ros2_ws/build/waypoints/CMakeFiles/edit_cache.dir
+/workspaces/auto_race/ros2_ws/build/waypoints/CMakeFiles/rebuild_cache.dir
+/workspaces/auto_race/ros2_ws/build/waypoints/CMakeFiles/list_install_components.dir
+/workspaces/auto_race/ros2_ws/build/waypoints/CMakeFiles/install.dir
+/workspaces/auto_race/ros2_ws/build/waypoints/CMakeFiles/install/local.dir
+/workspaces/auto_race/ros2_ws/build/waypoints/CMakeFiles/install/strip.dir

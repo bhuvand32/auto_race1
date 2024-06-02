@@ -1,0 +1,4 @@
+source;share/waypoints/local_setup.bash
+source;share/waypoints/local_setup.dsv
+source;share/waypoints/local_setup.sh
+source;share/waypoints/local_setup.zsh

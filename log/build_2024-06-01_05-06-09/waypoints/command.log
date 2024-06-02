@@ -1,0 +1,4 @@
+Invoking command in '/workspaces/auto_race/build/waypoints': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/auto_race/build/waypoints -- -j8 -l8
+Invoked command in '/workspaces/auto_race/build/waypoints' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/auto_race/build/waypoints -- -j8 -l8
+Invoking command in '/workspaces/auto_race/build/waypoints': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/auto_race/build/waypoints
+Invoked command in '/workspaces/auto_race/build/waypoints' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/auto_race/build/waypoints

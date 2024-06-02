@@ -1,0 +1,2 @@
+Invoking command in '/workspaces/auto_race/build/waypoints': /usr/bin/cmake /workspaces/auto_race/ros2_ws/src/waypoints -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/auto_race/install/waypoints
+Invoked command in '/workspaces/auto_race/build/waypoints' returned '1': /usr/bin/cmake /workspaces/auto_race/ros2_ws/src/waypoints -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/auto_race/install/waypoints

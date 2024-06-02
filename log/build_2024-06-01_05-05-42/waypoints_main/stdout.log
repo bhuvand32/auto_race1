@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating waypoints_main.egg-info
+writing waypoints_main.egg-info/PKG-INFO
+writing dependency_links to waypoints_main.egg-info/dependency_links.txt
+writing entry points to waypoints_main.egg-info/entry_points.txt
+writing requirements to waypoints_main.egg-info/requires.txt
+writing top-level names to waypoints_main.egg-info/top_level.txt
+writing manifest file 'waypoints_main.egg-info/SOURCES.txt'
+reading manifest file 'waypoints_main.egg-info/SOURCES.txt'
+writing manifest file 'waypoints_main.egg-info/SOURCES.txt'
+running build_ext
+Creating /workspaces/auto_race/install/waypoints_main/lib/python3.10/site-packages/waypoints-main.egg-link (link to .)
+
+Installed /workspaces/auto_race/build/waypoints_main
+running symlink_data
+creating /workspaces/auto_race/install/waypoints_main/share/ament_index
+creating /workspaces/auto_race/install/waypoints_main/share/ament_index/resource_index
+creating /workspaces/auto_race/install/waypoints_main/share/ament_index/resource_index/packages
+symbolically linking /workspaces/auto_race/build/waypoints_main/resource/waypoints_main -> /workspaces/auto_race/install/waypoints_main/share/ament_index/resource_index/packages
+symbolically linking /workspaces/auto_race/build/waypoints_main/package.xml -> /workspaces/auto_race/install/waypoints_main/share/waypoints_main

@@ -1,0 +1,32 @@
+[0.030s] Invoking command in '/workspaces/auto_race/build/waypoints': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/auto_race/ros2_ws/src/waypoints -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/auto_race/install/waypoints
+[0.541s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.838s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.967s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.113s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.254s] -- Added test 'lint_cmake' to check CMake code style
+[1.256s] -- Added test 'xmllint' to check XML markup files
+[1.259s] -- Configuring done
+[1.263s] -- Generating done
+[1.265s] -- Build files have been written to: /workspaces/auto_race/build/waypoints
+[1.314s] Invoked command in '/workspaces/auto_race/build/waypoints' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/auto_race/ros2_ws/src/waypoints -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/auto_race/install/waypoints
+[1.315s] Invoking command in '/workspaces/auto_race/build/waypoints': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/auto_race/build/waypoints -- -j8 -l8
+[1.334s] Invoked command in '/workspaces/auto_race/build/waypoints' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/auto_race/build/waypoints -- -j8 -l8
+[1.373s] Invoking command in '/workspaces/auto_race/build/waypoints': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/auto_race/build/waypoints
+[1.382s] -- Install configuration: ""
+[1.382s] -- Execute custom install script
+[1.383s] -- Symlinking: /workspaces/auto_race/install/waypoints/share/ament_index/resource_index/package_run_dependencies/waypoints
+[1.418s] -- Symlinking: /workspaces/auto_race/install/waypoints/share/ament_index/resource_index/parent_prefix_path/waypoints
+[1.427s] -- Symlinking: /workspaces/auto_race/install/waypoints/share/waypoints/environment/ament_prefix_path.sh
+[1.436s] -- Symlinking: /workspaces/auto_race/install/waypoints/share/waypoints/environment/ament_prefix_path.dsv
+[1.446s] -- Symlinking: /workspaces/auto_race/install/waypoints/share/waypoints/environment/path.sh
+[1.455s] -- Symlinking: /workspaces/auto_race/install/waypoints/share/waypoints/environment/path.dsv
+[1.463s] -- Symlinking: /workspaces/auto_race/install/waypoints/share/waypoints/local_setup.bash
+[1.471s] -- Symlinking: /workspaces/auto_race/install/waypoints/share/waypoints/local_setup.sh
+[1.481s] -- Symlinking: /workspaces/auto_race/install/waypoints/share/waypoints/local_setup.zsh
+[1.490s] -- Symlinking: /workspaces/auto_race/install/waypoints/share/waypoints/local_setup.dsv
+[1.501s] -- Symlinking: /workspaces/auto_race/install/waypoints/share/waypoints/package.dsv
+[1.512s] -- Symlinking: /workspaces/auto_race/install/waypoints/share/ament_index/resource_index/packages/waypoints
+[1.524s] -- Symlinking: /workspaces/auto_race/install/waypoints/share/waypoints/cmake/waypointsConfig.cmake
+[1.538s] -- Symlinking: /workspaces/auto_race/install/waypoints/share/waypoints/cmake/waypointsConfig-version.cmake
+[1.546s] -- Symlinking: /workspaces/auto_race/install/waypoints/share/waypoints/package.xml
+[1.560s] Invoked command in '/workspaces/auto_race/build/waypoints' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/auto_race/build/waypoints

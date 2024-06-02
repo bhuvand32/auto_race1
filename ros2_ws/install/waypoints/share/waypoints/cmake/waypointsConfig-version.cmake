@@ -1,0 +1,1 @@
+/workspaces/auto_race/ros2_ws/build/waypoints/ament_cmake_core/waypointsConfig-version.cmake

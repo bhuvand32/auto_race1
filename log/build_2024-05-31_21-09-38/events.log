@@ -1,0 +1,138 @@
+[0.000000] (-) TimerEvent: {}
+[0.000180] (my_robot_bringup) JobQueued: {'identifier': 'my_robot_bringup', 'dependencies': OrderedDict()}
+[0.000236] (my_robot_description) JobQueued: {'identifier': 'my_robot_description', 'dependencies': OrderedDict()}
+[0.000301] (waypoints) JobQueued: {'identifier': 'waypoints', 'dependencies': OrderedDict()}
+[0.000336] (waypoints_main) JobQueued: {'identifier': 'waypoints_main', 'dependencies': OrderedDict()}
+[0.000382] (my_robot_bringup) JobStarted: {'identifier': 'my_robot_bringup'}
+[0.004714] (my_robot_description) JobStarted: {'identifier': 'my_robot_description'}
+[0.006307] (waypoints) JobStarted: {'identifier': 'waypoints'}
+[0.009524] (waypoints_main) JobStarted: {'identifier': 'waypoints_main'}
+[0.017476] (my_robot_bringup) JobProgress: {'identifier': 'my_robot_bringup', 'progress': 'cmake'}
+[0.017676] (my_robot_bringup) Command: {'cmd': ['/usr/bin/cmake', '/workspaces/auto_race/ros2_ws/src/my_robot_bringup', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/workspaces/auto_race/install/my_robot_bringup'], 'cwd': '/workspaces/auto_race/build/my_robot_bringup', 'env': OrderedDict([('HOSTNAME', '47cdb22983db'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-3f4a3e85-b3a9-4c33-b8ae-b13dc9aba63c.sock'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-0ddff65a-bf0e-4a98-9853-58342af580cb.sock'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('PATH', '/vscode/vscode-server/bin/linux-x64/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-0ddff65a-bf0e-4a98-9853-58342af580cb.sock","/tmp/.X11-unix/X0","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-481b9c3c7f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-0ddff65a-bf0e-4a98-9853-58342af580cb.sock'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/auto_race/build/my_robot_bringup'), ('LC_ALL', 'C.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.020925] (my_robot_description) JobProgress: {'identifier': 'my_robot_description', 'progress': 'cmake'}
+[0.021169] (my_robot_description) Command: {'cmd': ['/usr/bin/cmake', '/workspaces/auto_race/ros2_ws/src/my_robot_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/workspaces/auto_race/install/my_robot_description'], 'cwd': '/workspaces/auto_race/build/my_robot_description', 'env': OrderedDict([('HOSTNAME', '47cdb22983db'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-3f4a3e85-b3a9-4c33-b8ae-b13dc9aba63c.sock'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-0ddff65a-bf0e-4a98-9853-58342af580cb.sock'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('PATH', '/vscode/vscode-server/bin/linux-x64/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-0ddff65a-bf0e-4a98-9853-58342af580cb.sock","/tmp/.X11-unix/X0","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-481b9c3c7f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-0ddff65a-bf0e-4a98-9853-58342af580cb.sock'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/auto_race/build/my_robot_description'), ('LC_ALL', 'C.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.023969] (waypoints) JobProgress: {'identifier': 'waypoints', 'progress': 'cmake'}
+[0.024436] (waypoints) Command: {'cmd': ['/usr/bin/cmake', '/workspaces/auto_race/ros2_ws/src/waypoints', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/workspaces/auto_race/install/waypoints'], 'cwd': '/workspaces/auto_race/build/waypoints', 'env': OrderedDict([('HOSTNAME', '47cdb22983db'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-3f4a3e85-b3a9-4c33-b8ae-b13dc9aba63c.sock'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-0ddff65a-bf0e-4a98-9853-58342af580cb.sock'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('PATH', '/vscode/vscode-server/bin/linux-x64/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-0ddff65a-bf0e-4a98-9853-58342af580cb.sock","/tmp/.X11-unix/X0","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-481b9c3c7f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-0ddff65a-bf0e-4a98-9853-58342af580cb.sock'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/auto_race/build/waypoints'), ('LC_ALL', 'C.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.099245] (-) TimerEvent: {}
+[0.199511] (-) TimerEvent: {}
+[0.299771] (-) TimerEvent: {}
+[0.400017] (-) TimerEvent: {}
+[0.500419] (-) TimerEvent: {}
+[0.600710] (-) TimerEvent: {}
+[0.700970] (-) TimerEvent: {}
+[0.801334] (-) TimerEvent: {}
+[0.902039] (-) TimerEvent: {}
+[1.002709] (-) TimerEvent: {}
+[1.022360] (waypoints) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.023221] (my_robot_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.023474] (my_robot_bringup) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.102850] (-) TimerEvent: {}
+[1.203535] (-) TimerEvent: {}
+[1.304277] (-) TimerEvent: {}
+[1.404744] (-) TimerEvent: {}
+[1.480632] (waypoints) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.481174] (my_robot_bringup) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.485660] (my_robot_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.504878] (-) TimerEvent: {}
+[1.523701] (my_robot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.524249] (waypoints) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.524533] (my_robot_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.604981] (-) TimerEvent: {}
+[1.705293] (-) TimerEvent: {}
+[1.805739] (-) TimerEvent: {}
+[1.816912] (my_robot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.825002] (my_robot_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.825194] (waypoints) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.831975] (my_robot_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.836862] (my_robot_bringup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.841284] (waypoints) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.898404] (my_robot_bringup) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.898613] (waypoints) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.898724] (my_robot_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.898969] (my_robot_bringup) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.899185] (waypoints) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.899350] (my_robot_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.905805] (-) TimerEvent: {}
+[1.906936] (waypoints) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.907131] (my_robot_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.907332] (my_robot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.005909] (-) TimerEvent: {}
+[2.106228] (-) TimerEvent: {}
+[2.162297] (my_robot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.164537] (my_robot_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.170075] (waypoints) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.180425] (my_robot_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.180833] (my_robot_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.180986] (my_robot_bringup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.181147] (my_robot_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.181625] (my_robot_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.181801] (my_robot_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.183428] (waypoints) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.183859] (waypoints) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.184626] (waypoints) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.199605] (waypoints) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:9 (find_package):\n'}
+[2.200087] (waypoints) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[2.200230] (waypoints) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[2.200348] (waypoints) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[2.200455] (waypoints) StderrLine: {'line': b'\n'}
+[2.200557] (waypoints) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[2.200682] (waypoints) StderrLine: {'line': b'  any of the following names:\n'}
+[2.200790] (waypoints) StderrLine: {'line': b'\n'}
+[2.200892] (waypoints) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[2.200996] (waypoints) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[2.201111] (waypoints) StderrLine: {'line': b'\n'}
+[2.201228] (waypoints) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[2.201340] (waypoints) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[2.201446] (waypoints) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[2.201801] (waypoints) StderrLine: {'line': b'  has been installed.\n'}
+[2.201914] (waypoints) StderrLine: {'line': b'\n'}
+[2.202020] (waypoints) StderrLine: {'line': b'\x1b[0m\n'}
+[2.202133] (my_robot_bringup) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.202271] (my_robot_bringup) StdoutLine: {'line': b'See also "/workspaces/auto_race/build/my_robot_bringup/CMakeFiles/CMakeOutput.log".\n'}
+[2.202388] (waypoints) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.202507] (waypoints) StdoutLine: {'line': b'See also "/workspaces/auto_race/build/waypoints/CMakeFiles/CMakeOutput.log".\n'}
+[2.202618] (my_robot_bringup) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:9 (find_package):\n'}
+[2.202761] (my_robot_bringup) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[2.202879] (my_robot_bringup) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[2.202992] (my_robot_bringup) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[2.203100] (my_robot_bringup) StderrLine: {'line': b'\n'}
+[2.203210] (my_robot_bringup) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[2.203323] (my_robot_bringup) StderrLine: {'line': b'  any of the following names:\n'}
+[2.203430] (my_robot_bringup) StderrLine: {'line': b'\n'}
+[2.203536] (my_robot_bringup) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[2.203642] (my_robot_bringup) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[2.203745] (my_robot_bringup) StderrLine: {'line': b'\n'}
+[2.203853] (my_robot_bringup) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[2.203981] (my_robot_bringup) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[2.204094] (my_robot_bringup) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[2.204223] (my_robot_bringup) StderrLine: {'line': b'  has been installed.\n'}
+[2.204348] (my_robot_bringup) StderrLine: {'line': b'\n'}
+[2.204616] (my_robot_bringup) StderrLine: {'line': b'\x1b[0m\n'}
+[2.204802] (my_robot_description) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.205547] (my_robot_description) StdoutLine: {'line': b'See also "/workspaces/auto_race/build/my_robot_description/CMakeFiles/CMakeOutput.log".\n'}
+[2.205781] (my_robot_description) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:9 (find_package):\n'}
+[2.206075] (my_robot_description) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[2.206219] (-) TimerEvent: {}
+[2.206558] (my_robot_description) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[2.206962] (my_robot_description) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[2.207109] (my_robot_description) StderrLine: {'line': b'\n'}
+[2.207329] (my_robot_description) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[2.207586] (my_robot_description) StderrLine: {'line': b'  any of the following names:\n'}
+[2.208541] (my_robot_description) StderrLine: {'line': b'\n'}
+[2.208828] (my_robot_description) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[2.209194] (my_robot_description) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[2.209589] (my_robot_description) StderrLine: {'line': b'\n'}
+[2.212904] (my_robot_description) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[2.213466] (my_robot_description) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[2.213701] (my_robot_description) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[2.213863] (my_robot_description) StderrLine: {'line': b'  has been installed.\n'}
+[2.214002] (my_robot_description) StderrLine: {'line': b'\n'}
+[2.214131] (my_robot_description) StderrLine: {'line': b'\x1b[0m\n'}
+[2.214283] (my_robot_bringup) CommandEnded: {'returncode': 1}
+[2.214769] (my_robot_description) CommandEnded: {'returncode': 1}
+[2.215169] (waypoints) CommandEnded: {'returncode': 1}
+[2.233199] (my_robot_bringup) JobEnded: {'identifier': 'my_robot_bringup', 'rc': 1}
+[2.234975] (my_robot_description) JobEnded: {'identifier': 'my_robot_description', 'rc': 'SIGINT'}
+[2.236394] (waypoints) JobEnded: {'identifier': 'waypoints', 'rc': 'SIGINT'}
+[2.241016] (waypoints_main) JobEnded: {'identifier': 'waypoints_main', 'rc': 'SIGINT'}
+[2.241955] (-) EventReactorShutdown: {}

@@ -1,0 +1,343 @@
+[0.408s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.408s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7faef5e7cee0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7faef5e7c550>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7faef5e7c550>>, mixin_verb=('build',))
+[2.921s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.921s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.921s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.921s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.921s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.921s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.921s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/workspaces/auto_race'
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.944s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.944s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.944s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.944s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.944s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.944s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.944s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.944s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.944s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.944s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.944s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extensions ['ignore', 'ignore_ament_install']
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'ignore'
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'ignore_ament_install'
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extensions ['colcon_pkg']
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'colcon_pkg'
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extensions ['colcon_meta']
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'colcon_meta'
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extensions ['ros']
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'ros'
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extensions ['cmake', 'python']
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'cmake'
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'python'
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extensions ['python_setup_py']
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'python_setup_py'
+[2.946s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[2.946s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/build) by extension 'ignore'
+[2.946s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/build) ignored
+[2.946s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[2.946s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/install) by extension 'ignore'
+[2.946s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/install) ignored
+[2.946s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[2.946s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/log) by extension 'ignore'
+[2.946s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/log) ignored
+[2.946s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[2.946s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'ignore'
+[2.946s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'ignore_ament_install'
+[2.947s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['colcon_pkg']
+[2.947s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'colcon_pkg'
+[2.947s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['colcon_meta']
+[2.947s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'colcon_meta'
+[2.947s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['ros']
+[2.947s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'ros'
+[2.947s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['cmake', 'python']
+[2.947s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'cmake'
+[2.947s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'python'
+[2.947s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['python_setup_py']
+[2.947s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'python_setup_py'
+[2.947s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/my_robot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[2.947s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/my_robot_bringup) by extension 'ignore'
+[2.947s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/my_robot_bringup) by extension 'ignore_ament_install'
+[2.947s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/my_robot_bringup) by extensions ['colcon_pkg']
+[2.947s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/my_robot_bringup) by extension 'colcon_pkg'
+[2.948s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/my_robot_bringup) by extensions ['colcon_meta']
+[2.948s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/my_robot_bringup) by extension 'colcon_meta'
+[2.948s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/my_robot_bringup) by extensions ['ros']
+[2.948s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/my_robot_bringup) by extension 'ros'
+[2.950s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_ws/src/my_robot_bringup' with type 'ros.ament_cmake' and name 'my_robot_bringup'
+[2.950s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/my_robot_description) by extensions ['ignore', 'ignore_ament_install']
+[2.950s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/my_robot_description) by extension 'ignore'
+[2.950s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/my_robot_description) by extension 'ignore_ament_install'
+[2.950s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/my_robot_description) by extensions ['colcon_pkg']
+[2.951s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/my_robot_description) by extension 'colcon_pkg'
+[2.951s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/my_robot_description) by extensions ['colcon_meta']
+[2.951s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/my_robot_description) by extension 'colcon_meta'
+[2.951s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/my_robot_description) by extensions ['ros']
+[2.951s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/my_robot_description) by extension 'ros'
+[2.951s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_ws/src/my_robot_description' with type 'ros.ament_cmake' and name 'my_robot_description'
+[2.951s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/waypoints) by extensions ['ignore', 'ignore_ament_install']
+[2.951s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/waypoints) by extension 'ignore'
+[2.951s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/waypoints) by extension 'ignore_ament_install'
+[2.952s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/waypoints) by extensions ['colcon_pkg']
+[2.952s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/waypoints) by extension 'colcon_pkg'
+[2.952s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/waypoints) by extensions ['colcon_meta']
+[2.952s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/waypoints) by extension 'colcon_meta'
+[2.952s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/waypoints) by extensions ['ros']
+[2.952s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/waypoints) by extension 'ros'
+[2.952s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_ws/src/waypoints' with type 'ros.ament_cmake' and name 'waypoints'
+[2.952s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/waypoints_main) by extensions ['ignore', 'ignore_ament_install']
+[2.952s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/waypoints_main) by extension 'ignore'
+[2.953s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/waypoints_main) by extension 'ignore_ament_install'
+[2.953s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/waypoints_main) by extensions ['colcon_pkg']
+[2.953s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/waypoints_main) by extension 'colcon_pkg'
+[2.953s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/waypoints_main) by extensions ['colcon_meta']
+[2.953s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/waypoints_main) by extension 'colcon_meta'
+[2.953s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/waypoints_main) by extensions ['ros']
+[2.953s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/waypoints_main) by extension 'ros'
+[2.953s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_ws/src/waypoints_main' with type 'ros.ament_python' and name 'waypoints_main'
+[2.954s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.954s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.954s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.954s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.954s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.015s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_args' from command line to 'None'
+[3.015s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_target' from command line to 'None'
+[3.015s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.015s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[3.015s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[3.015s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[3.015s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[3.016s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[3.016s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.016s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/auto_race/build/my_robot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/auto_race/install/my_robot_bringup', 'merge_install': False, 'path': '/workspaces/auto_race/ros2_ws/src/my_robot_bringup', 'symlink_install': True, 'test_result_base': None}
+[3.016s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_args' from command line to 'None'
+[3.016s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_target' from command line to 'None'
+[3.016s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.016s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[3.016s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[3.016s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[3.017s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[3.017s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[3.017s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.017s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/auto_race/build/my_robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/auto_race/install/my_robot_description', 'merge_install': False, 'path': '/workspaces/auto_race/ros2_ws/src/my_robot_description', 'symlink_install': True, 'test_result_base': None}
+[3.017s] Level 5:colcon.colcon_core.verb:set package 'waypoints' build argument 'cmake_args' from command line to 'None'
+[3.017s] Level 5:colcon.colcon_core.verb:set package 'waypoints' build argument 'cmake_target' from command line to 'None'
+[3.017s] Level 5:colcon.colcon_core.verb:set package 'waypoints' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.017s] Level 5:colcon.colcon_core.verb:set package 'waypoints' build argument 'cmake_clean_cache' from command line to 'False'
+[3.017s] Level 5:colcon.colcon_core.verb:set package 'waypoints' build argument 'cmake_clean_first' from command line to 'False'
+[3.017s] Level 5:colcon.colcon_core.verb:set package 'waypoints' build argument 'cmake_force_configure' from command line to 'False'
+[3.018s] Level 5:colcon.colcon_core.verb:set package 'waypoints' build argument 'ament_cmake_args' from command line to 'None'
+[3.018s] Level 5:colcon.colcon_core.verb:set package 'waypoints' build argument 'catkin_cmake_args' from command line to 'None'
+[3.018s] Level 5:colcon.colcon_core.verb:set package 'waypoints' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.018s] DEBUG:colcon.colcon_core.verb:Building package 'waypoints' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/auto_race/build/waypoints', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/auto_race/install/waypoints', 'merge_install': False, 'path': '/workspaces/auto_race/ros2_ws/src/waypoints', 'symlink_install': True, 'test_result_base': None}
+[3.018s] Level 5:colcon.colcon_core.verb:set package 'waypoints_main' build argument 'cmake_args' from command line to 'None'
+[3.018s] Level 5:colcon.colcon_core.verb:set package 'waypoints_main' build argument 'cmake_target' from command line to 'None'
+[3.018s] Level 5:colcon.colcon_core.verb:set package 'waypoints_main' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.018s] Level 5:colcon.colcon_core.verb:set package 'waypoints_main' build argument 'cmake_clean_cache' from command line to 'False'
+[3.018s] Level 5:colcon.colcon_core.verb:set package 'waypoints_main' build argument 'cmake_clean_first' from command line to 'False'
+[3.018s] Level 5:colcon.colcon_core.verb:set package 'waypoints_main' build argument 'cmake_force_configure' from command line to 'False'
+[3.019s] Level 5:colcon.colcon_core.verb:set package 'waypoints_main' build argument 'ament_cmake_args' from command line to 'None'
+[3.019s] Level 5:colcon.colcon_core.verb:set package 'waypoints_main' build argument 'catkin_cmake_args' from command line to 'None'
+[3.019s] Level 5:colcon.colcon_core.verb:set package 'waypoints_main' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.019s] DEBUG:colcon.colcon_core.verb:Building package 'waypoints_main' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/auto_race/build/waypoints_main', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/auto_race/install/waypoints_main', 'merge_install': False, 'path': '/workspaces/auto_race/ros2_ws/src/waypoints_main', 'symlink_install': True, 'test_result_base': None}
+[3.019s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.020s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.021s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspaces/auto_race/ros2_ws/src/my_robot_bringup' with build type 'ament_cmake'
+[3.021s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspaces/auto_race/ros2_ws/src/my_robot_bringup'
+[3.024s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.024s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.024s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.031s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspaces/auto_race/ros2_ws/src/my_robot_description' with build type 'ament_cmake'
+[3.031s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspaces/auto_race/ros2_ws/src/my_robot_description'
+[3.032s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.032s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.037s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspaces/auto_race/ros2_ws/src/waypoints' with build type 'ament_cmake'
+[3.037s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspaces/auto_race/ros2_ws/src/waypoints'
+[3.037s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.037s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.043s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/workspaces/auto_race/ros2_ws/src/waypoints_main' with build type 'ament_python'
+[3.043s] Level 1:colcon.colcon_core.shell:create_environment_hook('waypoints_main', 'ament_prefix_path')
+[3.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/auto_race/install/waypoints_main/share/waypoints_main/hook/ament_prefix_path.ps1'
+[3.045s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/auto_race/install/waypoints_main/share/waypoints_main/hook/ament_prefix_path.dsv'
+[3.045s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/auto_race/install/waypoints_main/share/waypoints_main/hook/ament_prefix_path.sh'
+[3.047s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.047s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.057s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/auto_race/build/my_robot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/auto_race/ros2_ws/src/my_robot_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/auto_race/install/my_robot_bringup
+[3.062s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/auto_race/build/my_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/auto_race/ros2_ws/src/my_robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/auto_race/install/my_robot_description
+[3.067s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/auto_race/build/waypoints': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/auto_race/ros2_ws/src/waypoints -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/auto_race/install/waypoints
+[3.397s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/workspaces/auto_race/ros2_ws/src/waypoints_main'
+[3.397s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.397s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.899s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/auto_race/build/waypoints_main': PYTHONPATH=/workspaces/auto_race/build/waypoints_main/prefix_override:/workspaces/auto_race/install/waypoints_main/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspaces/auto_race/build/waypoints_main/build --no-deps symlink_data
+[4.350s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/auto_race/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/auto_race/ros2_ws/src/my_robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/auto_race/install/my_robot_description
+[4.350s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/auto_race/build/my_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/auto_race/build/my_robot_description -- -j8 -l8
+[4.351s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/auto_race/build/waypoints' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/auto_race/ros2_ws/src/waypoints -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/auto_race/install/waypoints
+[4.352s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/auto_race/build/waypoints': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/auto_race/build/waypoints -- -j8 -l8
+[4.353s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/auto_race/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/auto_race/ros2_ws/src/my_robot_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/auto_race/install/my_robot_bringup
+[4.353s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/auto_race/build/my_robot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/auto_race/build/my_robot_bringup -- -j8 -l8
+[4.371s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/auto_race/build/waypoints' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/auto_race/build/waypoints -- -j8 -l8
+[4.372s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/auto_race/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/auto_race/build/my_robot_description -- -j8 -l8
+[4.380s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/auto_race/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/auto_race/build/my_robot_bringup -- -j8 -l8
+[4.410s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/auto_race/build/waypoints': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/auto_race/build/waypoints
+[4.413s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/auto_race/build/my_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/auto_race/build/my_robot_description
+[4.414s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/auto_race/build/my_robot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/auto_race/build/my_robot_bringup
+[4.596s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(waypoints)
+[4.597s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/auto_race/build/waypoints' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/auto_race/build/waypoints
+[4.601s] Level 1:colcon.colcon_core.environment:checking '/workspaces/auto_race/install/waypoints' for CMake module files
+[4.602s] Level 1:colcon.colcon_core.environment:checking '/workspaces/auto_race/install/waypoints' for CMake config files
+[4.603s] Level 1:colcon.colcon_core.shell:create_environment_hook('waypoints', 'cmake_prefix_path')
+[4.603s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/auto_race/install/waypoints/share/waypoints/hook/cmake_prefix_path.ps1'
+[4.604s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/auto_race/install/waypoints/share/waypoints/hook/cmake_prefix_path.dsv'
+[4.604s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/auto_race/install/waypoints/share/waypoints/hook/cmake_prefix_path.sh'
+[4.606s] Level 1:colcon.colcon_core.environment:checking '/workspaces/auto_race/install/waypoints/bin'
+[4.606s] Level 1:colcon.colcon_core.environment:checking '/workspaces/auto_race/install/waypoints/lib/pkgconfig/waypoints.pc'
+[4.606s] Level 1:colcon.colcon_core.environment:checking '/workspaces/auto_race/install/waypoints/lib/python3.10/site-packages'
+[4.607s] Level 1:colcon.colcon_core.environment:checking '/workspaces/auto_race/install/waypoints/bin'
+[4.608s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/auto_race/install/waypoints/share/waypoints/package.ps1'
+[4.609s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/auto_race/install/waypoints/share/waypoints/package.dsv'
+[4.610s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/auto_race/install/waypoints/share/waypoints/package.sh'
+[4.611s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/auto_race/install/waypoints/share/waypoints/package.bash'
+[4.613s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/auto_race/install/waypoints/share/waypoints/package.zsh'
+[4.614s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/auto_race/install/waypoints/share/colcon-core/packages/waypoints)
+[4.639s] Level 1:colcon.colcon_core.shell:create_environment_hook('waypoints_main', 'pythonpath_develop')
+[4.640s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/auto_race/build/waypoints_main/share/waypoints_main/hook/pythonpath_develop.ps1'
+[4.641s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/auto_race/build/waypoints_main/share/waypoints_main/hook/pythonpath_develop.dsv'
+[4.641s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/auto_race/build/waypoints_main/share/waypoints_main/hook/pythonpath_develop.sh'
+[4.642s] Level 1:colcon.colcon_core.environment:checking '/workspaces/auto_race/install/waypoints_main' for CMake module files
+[4.643s] Level 1:colcon.colcon_core.environment:checking '/workspaces/auto_race/install/waypoints_main' for CMake config files
+[4.647s] Level 1:colcon.colcon_core.environment:checking '/workspaces/auto_race/install/waypoints_main/lib'
+[4.648s] Level 1:colcon.colcon_core.environment:checking '/workspaces/auto_race/install/waypoints_main/bin'
+[4.648s] Level 1:colcon.colcon_core.environment:checking '/workspaces/auto_race/install/waypoints_main/lib/pkgconfig/waypoints_main.pc'
+[4.648s] Level 1:colcon.colcon_core.environment:checking '/workspaces/auto_race/install/waypoints_main/lib/python3.10/site-packages'
+[4.648s] Level 1:colcon.colcon_core.shell:create_environment_hook('waypoints_main', 'pythonpath')
+[4.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/auto_race/install/waypoints_main/share/waypoints_main/hook/pythonpath.ps1'
+[4.649s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/auto_race/install/waypoints_main/share/waypoints_main/hook/pythonpath.dsv'
+[4.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/auto_race/install/waypoints_main/share/waypoints_main/hook/pythonpath.sh'
+[4.651s] Level 1:colcon.colcon_core.environment:checking '/workspaces/auto_race/install/waypoints_main/bin'
+[4.651s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(waypoints_main)
+[4.652s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/auto_race/install/waypoints_main/share/waypoints_main/package.ps1'
+[4.652s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/auto_race/install/waypoints_main/share/waypoints_main/package.dsv'
+[4.653s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/auto_race/install/waypoints_main/share/waypoints_main/package.sh'
+[4.653s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/auto_race/install/waypoints_main/share/waypoints_main/package.bash'
+[4.654s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/auto_race/install/waypoints_main/share/waypoints_main/package.zsh'
+[4.654s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/auto_race/install/waypoints_main/share/colcon-core/packages/waypoints_main)
+[4.655s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(waypoints)
+[4.656s] Level 1:colcon.colcon_core.environment:checking '/workspaces/auto_race/install/waypoints' for CMake module files
+[4.656s] Level 1:colcon.colcon_core.environment:checking '/workspaces/auto_race/install/waypoints' for CMake config files
+[4.657s] Level 1:colcon.colcon_core.shell:create_environment_hook('waypoints', 'cmake_prefix_path')
+[4.657s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/auto_race/install/waypoints/share/waypoints/hook/cmake_prefix_path.ps1'
+[4.657s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/auto_race/install/waypoints/share/waypoints/hook/cmake_prefix_path.dsv'
+[4.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/auto_race/install/waypoints/share/waypoints/hook/cmake_prefix_path.sh'
+[4.658s] Level 1:colcon.colcon_core.environment:checking '/workspaces/auto_race/install/waypoints/bin'
+[4.658s] Level 1:colcon.colcon_core.environment:checking '/workspaces/auto_race/install/waypoints/lib/pkgconfig/waypoints.pc'
+[4.659s] Level 1:colcon.colcon_core.environment:checking '/workspaces/auto_race/install/waypoints/lib/python3.10/site-packages'
+[4.659s] Level 1:colcon.colcon_core.environment:checking '/workspaces/auto_race/install/waypoints/bin'
+[4.659s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/auto_race/install/waypoints/share/waypoints/package.ps1'
+[4.660s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/auto_race/install/waypoints/share/waypoints/package.dsv'
+[4.660s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/auto_race/install/waypoints/share/waypoints/package.sh'
+[4.661s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/auto_race/install/waypoints/share/waypoints/package.bash'
+[4.661s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/auto_race/install/waypoints/share/waypoints/package.zsh'
+[4.662s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/auto_race/install/waypoints/share/colcon-core/packages/waypoints)
+[4.675s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/auto_race/build/waypoints_main' returned '0': PYTHONPATH=/workspaces/auto_race/build/waypoints_main/prefix_override:/workspaces/auto_race/install/waypoints_main/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspaces/auto_race/build/waypoints_main/build --no-deps symlink_data
+[4.686s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_description)
+[4.687s] Level 1:colcon.colcon_core.environment:checking '/workspaces/auto_race/install/my_robot_description' for CMake module files
+[4.688s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/auto_race/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/auto_race/build/my_robot_description
+[4.689s] Level 1:colcon.colcon_core.environment:checking '/workspaces/auto_race/install/my_robot_description' for CMake config files
+[4.689s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_description', 'cmake_prefix_path')
+[4.690s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/auto_race/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.ps1'
+[4.690s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/auto_race/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.dsv'
+[4.691s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/auto_race/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.sh'
+[4.692s] Level 1:colcon.colcon_core.environment:checking '/workspaces/auto_race/install/my_robot_description/bin'
+[4.692s] Level 1:colcon.colcon_core.environment:checking '/workspaces/auto_race/install/my_robot_description/lib/pkgconfig/my_robot_description.pc'
+[4.692s] Level 1:colcon.colcon_core.environment:checking '/workspaces/auto_race/install/my_robot_description/lib/python3.10/site-packages'
+[4.693s] Level 1:colcon.colcon_core.environment:checking '/workspaces/auto_race/install/my_robot_description/bin'
+[4.693s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/auto_race/install/my_robot_description/share/my_robot_description/package.ps1'
+[4.694s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/auto_race/install/my_robot_description/share/my_robot_description/package.dsv'
+[4.695s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/auto_race/install/my_robot_description/share/my_robot_description/package.sh'
+[4.696s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/auto_race/install/my_robot_description/share/my_robot_description/package.bash'
+[4.696s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/auto_race/install/my_robot_description/share/my_robot_description/package.zsh'
+[4.697s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/auto_race/install/my_robot_description/share/colcon-core/packages/my_robot_description)
+[4.721s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_bringup)
+[4.722s] Level 1:colcon.colcon_core.environment:checking '/workspaces/auto_race/install/my_robot_bringup' for CMake module files
+[4.723s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/auto_race/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/auto_race/build/my_robot_bringup
+[4.724s] Level 1:colcon.colcon_core.environment:checking '/workspaces/auto_race/install/my_robot_bringup' for CMake config files
+[4.724s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_bringup', 'cmake_prefix_path')
+[4.724s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/auto_race/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.ps1'
+[4.725s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/auto_race/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.dsv'
+[4.726s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/auto_race/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.sh'
+[4.726s] Level 1:colcon.colcon_core.environment:checking '/workspaces/auto_race/install/my_robot_bringup/bin'
+[4.726s] Level 1:colcon.colcon_core.environment:checking '/workspaces/auto_race/install/my_robot_bringup/lib/pkgconfig/my_robot_bringup.pc'
+[4.727s] Level 1:colcon.colcon_core.environment:checking '/workspaces/auto_race/install/my_robot_bringup/lib/python3.10/site-packages'
+[4.727s] Level 1:colcon.colcon_core.environment:checking '/workspaces/auto_race/install/my_robot_bringup/bin'
+[4.728s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/auto_race/install/my_robot_bringup/share/my_robot_bringup/package.ps1'
+[4.728s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/auto_race/install/my_robot_bringup/share/my_robot_bringup/package.dsv'
+[4.729s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/auto_race/install/my_robot_bringup/share/my_robot_bringup/package.sh'
+[4.729s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/auto_race/install/my_robot_bringup/share/my_robot_bringup/package.bash'
+[4.730s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/auto_race/install/my_robot_bringup/share/my_robot_bringup/package.zsh'
+[4.730s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/auto_race/install/my_robot_bringup/share/colcon-core/packages/my_robot_bringup)
+[4.732s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_description)
+[4.732s] Level 1:colcon.colcon_core.environment:checking '/workspaces/auto_race/install/my_robot_description' for CMake module files
+[4.733s] Level 1:colcon.colcon_core.environment:checking '/workspaces/auto_race/install/my_robot_description' for CMake config files
+[4.734s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_description', 'cmake_prefix_path')
+[4.734s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/auto_race/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.ps1'
+[4.735s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/auto_race/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.dsv'
+[4.735s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/auto_race/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.sh'
+[4.736s] Level 1:colcon.colcon_core.environment:checking '/workspaces/auto_race/install/my_robot_description/bin'
+[4.736s] Level 1:colcon.colcon_core.environment:checking '/workspaces/auto_race/install/my_robot_description/lib/pkgconfig/my_robot_description.pc'
+[4.736s] Level 1:colcon.colcon_core.environment:checking '/workspaces/auto_race/install/my_robot_description/lib/python3.10/site-packages'
+[4.736s] Level 1:colcon.colcon_core.environment:checking '/workspaces/auto_race/install/my_robot_description/bin'
+[4.737s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/auto_race/install/my_robot_description/share/my_robot_description/package.ps1'
+[4.737s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/auto_race/install/my_robot_description/share/my_robot_description/package.dsv'
+[4.738s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/auto_race/install/my_robot_description/share/my_robot_description/package.sh'
+[4.738s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/auto_race/install/my_robot_description/share/my_robot_description/package.bash'
+[4.738s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/auto_race/install/my_robot_description/share/my_robot_description/package.zsh'
+[4.739s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/auto_race/install/my_robot_description/share/colcon-core/packages/my_robot_description)
+[4.756s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_bringup)
+[4.756s] Level 1:colcon.colcon_core.environment:checking '/workspaces/auto_race/install/my_robot_bringup' for CMake module files
+[4.757s] Level 1:colcon.colcon_core.environment:checking '/workspaces/auto_race/install/my_robot_bringup' for CMake config files
+[4.757s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_bringup', 'cmake_prefix_path')
+[4.758s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/auto_race/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.ps1'
+[4.758s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/auto_race/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.dsv'
+[4.758s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/auto_race/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.sh'
+[4.759s] Level 1:colcon.colcon_core.environment:checking '/workspaces/auto_race/install/my_robot_bringup/bin'
+[4.759s] Level 1:colcon.colcon_core.environment:checking '/workspaces/auto_race/install/my_robot_bringup/lib/pkgconfig/my_robot_bringup.pc'
+[4.759s] Level 1:colcon.colcon_core.environment:checking '/workspaces/auto_race/install/my_robot_bringup/lib/python3.10/site-packages'
+[4.760s] Level 1:colcon.colcon_core.environment:checking '/workspaces/auto_race/install/my_robot_bringup/bin'
+[4.760s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/auto_race/install/my_robot_bringup/share/my_robot_bringup/package.ps1'
+[4.761s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/auto_race/install/my_robot_bringup/share/my_robot_bringup/package.dsv'
+[4.761s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/auto_race/install/my_robot_bringup/share/my_robot_bringup/package.sh'
+[4.762s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/auto_race/install/my_robot_bringup/share/my_robot_bringup/package.bash'
+[4.762s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/auto_race/install/my_robot_bringup/share/my_robot_bringup/package.zsh'
+[4.763s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/auto_race/install/my_robot_bringup/share/colcon-core/packages/my_robot_bringup)
+[4.763s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.763s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.764s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.764s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.790s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[4.790s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.790s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.790s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.792s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[4.793s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.793s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/auto_race/install/local_setup.ps1'
+[4.795s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspaces/auto_race/install/_local_setup_util_ps1.py'
+[4.797s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/auto_race/install/setup.ps1'
+[4.799s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/auto_race/install/local_setup.sh'
+[4.800s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspaces/auto_race/install/_local_setup_util_sh.py'
+[4.800s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/auto_race/install/setup.sh'
+[4.802s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/auto_race/install/local_setup.bash'
+[4.802s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/auto_race/install/setup.bash'
+[4.803s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/auto_race/install/local_setup.zsh'
+[4.804s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/auto_race/install/setup.zsh'

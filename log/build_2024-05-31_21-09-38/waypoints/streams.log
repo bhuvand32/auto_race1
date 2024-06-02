@@ -1,0 +1,33 @@
+[0.031s] Invoking command in '/workspaces/auto_race/build/waypoints': /usr/bin/cmake /workspaces/auto_race/ros2_ws/src/waypoints -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/auto_race/install/waypoints
+[1.014s] -- The C compiler identification is GNU 11.4.0
+[1.473s] -- The CXX compiler identification is GNU 11.4.0
+[1.516s] -- Detecting C compiler ABI info
+[1.817s] -- Detecting C compiler ABI info - done
+[1.833s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.890s] -- Detecting C compile features
+[1.891s] -- Detecting C compile features - done
+[1.899s] -- Detecting CXX compiler ABI info
+[2.162s] -- Detecting CXX compiler ABI info - done
+[2.175s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.176s] -- Detecting CXX compile features
+[2.177s] -- Detecting CXX compile features - done
+[2.192s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[2.192s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[2.192s]   has asked CMake to find a package configuration file provided by
+[2.192s]   "ament_cmake", but CMake did not find one.
+[2.192s] 
+[2.192s]   Could not find a package configuration file provided by "ament_cmake" with
+[2.193s]   any of the following names:
+[2.193s] 
+[2.193s]     ament_cmakeConfig.cmake
+[2.193s]     ament_cmake-config.cmake
+[2.193s] 
+[2.193s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[2.193s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[2.194s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[2.194s]   has been installed.
+[2.194s] 
+[2.194s] [0m
+[2.194s] -- Configuring incomplete, errors occurred!
+[2.194s] See also "/workspaces/auto_race/build/waypoints/CMakeFiles/CMakeOutput.log".
+[2.207s] Invoked command in '/workspaces/auto_race/build/waypoints' returned '1': /usr/bin/cmake /workspaces/auto_race/ros2_ws/src/waypoints -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/auto_race/install/waypoints

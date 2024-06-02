@@ -1,0 +1,42 @@
+[0.070s] Invoking command in '/workspaces/auto_race/ros2_ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspaces/auto_race/ros2_ws/src/my_robot_bringup -DCMAKE_INSTALL_PREFIX=/workspaces/auto_race/ros2_ws/install/my_robot_bringup
+[1.213s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.835s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.942s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.153s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.154s] -- Added test 'lint_cmake' to check CMake code style
+[2.155s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.179s] -- Added test 'xmllint' to check XML markup files
+[2.205s] -- Configuring done
+[2.446s] -- Generating done
+[2.452s] -- Build files have been written to: /workspaces/auto_race/ros2_ws/build/my_robot_bringup
+[2.468s] Invoked command in '/workspaces/auto_race/ros2_ws/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspaces/auto_race/ros2_ws/src/my_robot_bringup -DCMAKE_INSTALL_PREFIX=/workspaces/auto_race/ros2_ws/install/my_robot_bringup
+[2.472s] Invoking command in '/workspaces/auto_race/ros2_ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/auto_race/ros2_ws/build/my_robot_bringup -- -j8 -l8
+[2.519s] Invoked command in '/workspaces/auto_race/ros2_ws/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/auto_race/ros2_ws/build/my_robot_bringup -- -j8 -l8
+[2.548s] Invoking command in '/workspaces/auto_race/ros2_ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/auto_race/ros2_ws/build/my_robot_bringup
+[2.554s] -- Install configuration: ""
+[2.556s] -- Execute custom install script
+[2.556s] -- Up-to-date symlink: /workspaces/auto_race/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//launch/my_robot_gazebo.launch.xml
+[2.556s] -- Up-to-date symlink: /workspaces/auto_race/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//launch/nav2_gazebo.launch.py
+[2.557s] -- Up-to-date symlink: /workspaces/auto_race/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//launch/nav2_gazebo.launch.xml
+[2.557s] -- Symlinking: /workspaces/auto_race/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//launch/nav2_gazebo_xml.lauch.xml
+[2.567s] -- Up-to-date symlink: /workspaces/auto_race/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//rviz/rviz_config.rviz
+[2.568s] -- Up-to-date symlink: /workspaces/auto_race/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//worlds/my_world.world
+[2.568s] -- Up-to-date symlink: /workspaces/auto_race/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//map/map_gazebo.pgm
+[2.568s] -- Up-to-date symlink: /workspaces/auto_race/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//map/map_gazebo.yaml
+[2.569s] -- Up-to-date symlink: /workspaces/auto_race/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//param/my_robot.yaml
+[2.569s] -- Up-to-date symlink: /workspaces/auto_race/ros2_ws/install/my_robot_bringup/share/ament_index/resource_index/package_run_dependencies/my_robot_bringup
+[2.570s] -- Up-to-date symlink: /workspaces/auto_race/ros2_ws/install/my_robot_bringup/share/ament_index/resource_index/parent_prefix_path/my_robot_bringup
+[2.570s] -- Up-to-date symlink: /workspaces/auto_race/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.sh
+[2.571s] -- Up-to-date symlink: /workspaces/auto_race/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.dsv
+[2.571s] -- Up-to-date symlink: /workspaces/auto_race/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/path.sh
+[2.571s] -- Up-to-date symlink: /workspaces/auto_race/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/path.dsv
+[2.571s] -- Up-to-date symlink: /workspaces/auto_race/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.bash
+[2.571s] -- Up-to-date symlink: /workspaces/auto_race/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.sh
+[2.571s] -- Up-to-date symlink: /workspaces/auto_race/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.zsh
+[2.572s] -- Up-to-date symlink: /workspaces/auto_race/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.dsv
+[2.572s] -- Symlinking: /workspaces/auto_race/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.dsv
+[2.580s] -- Up-to-date symlink: /workspaces/auto_race/ros2_ws/install/my_robot_bringup/share/ament_index/resource_index/packages/my_robot_bringup
+[2.580s] -- Up-to-date symlink: /workspaces/auto_race/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig.cmake
+[2.580s] -- Up-to-date symlink: /workspaces/auto_race/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig-version.cmake
+[2.580s] -- Up-to-date symlink: /workspaces/auto_race/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.xml
+[2.704s] Invoked command in '/workspaces/auto_race/ros2_ws/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/auto_race/ros2_ws/build/my_robot_bringup
